@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Genius Lyrics Scraper",
+  "version": "1.0.0",
+  "description": "Extract clean lyrics from Genius.com and save as .txt file",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://genius.com/*-lyrics*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
