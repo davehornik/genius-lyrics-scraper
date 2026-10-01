@@ -24,4 +24,4 @@ Open any `https://genius.com/<artist>-<song>-lyrics` page and click the yellow
 - `style.css` – button and toast styling
 - `icon48.png`, `icon128.png` – icons
 
-A sister extension with the same workflow exists for KaraokeTexty.cz (`karaoketexty-lyrics-scraper`).
+Sister extension for KaraokeTexty.cz: [karaoketexty-lyrics-scraper](https://github.com/davehornik/karaoketexty-lyrics-scraper).
